@@ -1,1 +1,48 @@
-/* Los estilos de tu proyecto */
+
+
+.banner {
+	height: 700px;
+	width: 100%;
+	background-image: url("../assets/images/taxi.jpg");
+	background-size: cover;
+	background-position: 20% 90%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.box-banner {
+	display: flex;
+	flex-direction: column; /*flexbox não é necessario para deixar os itens embaixo um do outro. Mesmo assim eu coloco isso? */ 
+	height: 400px;
+	width: 530px;
+	background-color: #F7B617;
+	color: white;
+}
+
+.app {
+	height: 500px;
+	width: 100%;
+	background-color: #F7B617;
+}
+
+.drive {
+	height: 400px;
+	width: 100%;
+	background-image: url("../assets/images/conduce.jpg");
+	background-size: cover;
+	background-position: 20% 50%;
+}
+
+.map {
+	height: 400px;
+	width: 100%;
+	background-color: #F7B617;
+
+}
+
+footer {
+	height: 600px; 
+	width: 100%;
+	background-color: #2B2B2B;
+}
