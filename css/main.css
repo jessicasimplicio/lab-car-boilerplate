@@ -18,6 +18,35 @@
 	width: 530px;
 	background-color: #F7B617;
 	color: white;
+	padding: 40px;
+}
+
+.box-banner-div1 {
+	margin-bottom: 20px;
+}
+
+.box-banner-div2 h2 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.box-banner-logo {
+	height: 20px;  
+	width: 90px;
+	margin-left: 15px;
+}
+
+.btn {
+	background-color: white;
+  border: none;
+  padding: ;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-register {
+  text-transform: uppercase;
 }
 
 .app {
