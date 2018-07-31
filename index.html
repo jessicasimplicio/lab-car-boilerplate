@@ -9,14 +9,13 @@
 </head>
 <body>
 	<header>
-
-
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
   		<a class="navbar-brand" href="#"></a>
-		 	<img src="assets/images/logoForma.png">
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
+		 	<img src="assets/images/logoForma.png">
+  		
 
   		<div class="collapse navbar-collapse mb-2 mt-2" id="navbarNav">
     		<ul class="navbar-nav ml-auto mr-5"> <!-- justify-content-end -->
@@ -34,27 +33,41 @@
 		</nav>
 	</header>
 
-	<section>
-		<div class="banner">
-			<div class="box-banner">
-				<div class="box-banner-div1">
-					<h2>Disfruta del viaje</h2>
-					<h2>Eres dueño de tu tiempo</h2>
-				</div>
-				<div class="box-banner-div2">
-					<h2>Viaja con<img class="box-banner-logo" src="assets/images/logoBlanco.png"></h2>
-					<button class="btn btn-register" type="submit">Registrate</button>
-					<div class="o-bien-box">
-						<p>_________________</p><p>O bien</p><p>_________________</p>						
+	<section class="d-none d-sm-block d-md-block" >		
+			<div class="banner container-fluid d-flex flex-row justify-content-end align-items-center">
+        <div class="row">
+					<div class="box-banner1 d-flex  flex-column">
+						<div class="box-banner-div1 ">
+							<h2>Disfruta del viaje</h2>
+							<h2>Eres dueño de tu tiempo</h2>
+						</div>
+						<div class="box-banner-div2">
+							<h2>Viaja con<img class="box-banner-logo" src="assets/images/logoBlanco.png"></h2>
+							<button class="btn btn-register" type="submit">Registrate</button>
+							<div class="o-bien-box">
+								<p>_________________</p><p>O bien</p><p>_________________</p>						
+							</div>
+							<button class="btn" type="submit">Conviértete en un conductor</button>
+						</div>
 					</div>
-					<button class="btn" type="submit">Conviértete en un conductor</button>
+				</div>
+		</div>		
+	</section>
+
+	<section class="d-sm-none">		
+		<div class="banner container-fluid d-flex flex-row justify-content-end align-items-center">
+      <div class="row">
+				<div class="box-banner2 d-flex flex-column">
+					<h2>Comienza a viajar</h2>
+					<h2>con <img class="box-banner-logo" src="assets/images/logoBlanco.png"></h2></h2>
+					<button class="btn" type="submit">Descarga el app</button>
 				</div>
 			</div>
 		</div>		
 	</section>
 
-	<section class="app">
-		<div class="box-app">
+	<section class="app d-none d-sm-block d-md-block">
+		<div class="box-app1">
 			<div class="image-app">
 				<img src="assets/images/iPhone6Plus.png">
 			</div>
@@ -69,11 +82,34 @@
 				no te preocupes: tu conductor sabe<br/>
 				exactamente a dónde ir.</p>
 			</div>
-		</div>
-		
+		</div>		
 	</section>
-	<section class="drive">
-		<div class="drive-box">
+
+	<section class="app d-sm-none">
+		<div class="d-flex flex-column justify-content-center align-items-center">
+			<div class="box-app2">
+				<div class="image-app">
+					<h2>La nueva app</h2>
+					<img src="assets/images/iPhone6Plus.png">
+				</div>			
+			</div>	
+			<h2>Llega a tu destino aún más rápido</h2>
+		</div>	
+	</section>
+
+	<section class="d-none d-sm-block d-md-block">
+		<div class="drive justify-content-end">
+		<div class="drive-box1 d-flex flex-column justify-content-center">
+			<h3>Conduce cuando quieras</h3>
+			<p>LabCar es una opción flexible para alcanzar<br/>
+			tus metas financieras.</p>
+			<button class="btn btn-driver">Conviértete en conductor</button>
+		</div>
+	</div>
+	</section>
+
+	<section class="drive d-sm-none">
+		<div class="drive-box2 d-flex flex-column justify-content-center">
 			<h3>Conduce cuando quieras</h3>
 			<p>LabCar es una opción flexible para alcanzar<br/>
 			tus metas financieras.</p>
