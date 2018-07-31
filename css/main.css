@@ -63,17 +63,11 @@
 	height: 500px;
 	width: 100%;
 	background-color: #F7B617;
-	display: flex;
-	align-items: center;
-
 }
 
 .box-app1{
 	height: 400px; 
 	width: 1100px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	border-top: solid white 1px;
 	border-right: solid white 2px;
 	border-bottom: solid white 2px;
@@ -83,9 +77,6 @@
 .box-app2{
 	height: 400px; 
 	width: 500px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	border: solid white 1px;
 	color: white;
 }
@@ -217,27 +208,16 @@
     opacity: 1;  
 }
 
-/*
-:-ms-input-placeholder {  Internet Explorer 10-11 
-   color: #fff;
-}
-
-::-ms-input-placeholder { Microsoft Edge 
-   color: #fff;
-}
-*/
 
 footer{
 	height: 600px; 
 	width: 100%;
 	background-color: #2B2B2B;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	color: #fff;
 }
 
 .footer{
+	padding: 60px;
 	height: 75%;
 	width: 90%;
 }
