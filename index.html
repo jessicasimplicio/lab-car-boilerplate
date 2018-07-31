@@ -81,7 +81,7 @@
 		</div>
 	</section>
 
-	<section class="map">
+	<section class="map-section">
 		<div class="form-box">
 			<h3>Tarifas</h3>
 			<p>Consulta las tarifas LabCar aquí</p>
@@ -101,7 +101,7 @@
 			</form>
 		</div>
 		<div class="map-box">
-			
+			<div id="map"></div>
 		</div>
 	</section>
 	<footer>
@@ -118,7 +118,7 @@
             <span class="icon-apple icon"></span>
             <span class="icon-play icon"></span>
           </div>
-          <div class="col-md-3 text-left d-flex p-2 flex-column mb-3">
+          <div class="col-md-3 col-sm-3 text-left d-flex p-2 flex-column mb-3">
             <a href="">Viaja</a>
             <a href="">Conduce</a>
             <a href="">Ciudades</a>
@@ -128,7 +128,7 @@
             <a href="">Países</a>
             <a href="">Seguridad</a>
           </div>
-          <div class="col-md-3 text-left d-flex p-2 flex-column mb-3">
+          <div class="col-md-3 col-sm-3 text-left d-flex p-2 flex-column mb-3">
           	<a href="">Oportunidades</a>
             <a href="">Nuestra historia</a>
             <a href="">API de LabCar</a>
@@ -138,9 +138,9 @@
             <a href="">Laboratoria</a> 
             <a href="">Coders</a>
           </div>
-          <div class="col-md-3 text-left d-flex flex-column mb-3 justify-content-md-end align-items-start">
-            <img class="img-fluid w-50" src="assets/images/appstore.png" />
-            <img class="img-fluid w-50" src="assets/images/enBadgeWebGeneric.png">
+          <div class="col-md-3 col-sm-3 col-3 text-left d-flex flex-column mb-3 justify-content-md-end align-items-start">
+            <img class="img-fluid w-50 mb-4" src="assets/images/appstore.png" />
+            <img class="img-fluid w-50 mb-4" src="assets/images/enBadgeWebGeneric.png">
           </div>
          
         </div>
@@ -153,6 +153,8 @@
 		
 	</footer>
 
+	<script type="text/javascript" src="js/app.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlbk5s_NRZu3OaWtKwZ8BJCXzHz6yixv0&callback=initMap" async defer></script>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
