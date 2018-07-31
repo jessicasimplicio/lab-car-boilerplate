@@ -145,15 +145,18 @@
 	width: 250px;
 }
 
-.map-section {
+.map-section1 {
 	height: 500px;
 	width: 100%;
 	background-color: #F7B617;
 	color: white;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+}
 
+.map-section2 {
+	height: 1000px;
+	width: 100%;
+	background-color: #F7B617;
+	color: white;
 }
 
 .form-box{
@@ -193,7 +196,7 @@
 
 }
 
-#map {
+#map1, #map2 {
   height: 100%;
 }
 

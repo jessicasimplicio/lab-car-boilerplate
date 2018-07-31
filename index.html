@@ -117,7 +117,8 @@
 		</div>
 	</section>
 
-	<section class="map-section">
+	<section class="map-section1 d-none d-sm-block d-md-block">
+		<div class="d-flex flex-row justify-content-around align-items-center">
 		<div class="form-box">
 			<h3>Tarifas</h3>
 			<p>Consulta las tarifas LabCar aquí</p>
@@ -137,10 +138,38 @@
 			</form>
 		</div>
 		<div class="map-box">
-			<div id="map"></div>
+			<div id="map1"></div>
+		</div>
 		</div>
 	</section>
-	<footer>
+
+	<section class="map-section2 d-sm-none">
+		<div class="d-flex flex-column">
+		<div class="form-box">
+			<h3>Tarifas</h3>
+			<p>Consulta las tarifas LabCar aquí</p>
+			<form>
+  			<div class="form-group">
+  				<img class="image-form mr-2 " src="assets/images/shape.png">
+    			<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su ponto de partida" color="#F7B617">
+  			</div>
+  			<div class="form-group">
+  				<img class="image-form mr-2" src="assets/images/shape2.png">
+    			<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese su destino">
+  			</div>
+  			<div class="btn-form">
+  			  <button type="submit" class="btn btn-primary">Trazar ruta!</button>  				
+  			</div>
+
+			</form>
+		</div>
+		<div class="map-box">
+			<div id="map2"></div>
+		</div>
+		</div>
+	</section>
+
+	<footer class="d-none d-sm-block d-md-block">
 		<div class="footer">
 			<img src="assets/images/logoBlanco.png">
 			<hr>
@@ -177,17 +206,54 @@
           <div class="col-md-3 col-sm-3 col-3 text-left d-flex flex-column mb-3 justify-content-md-end align-items-start">
             <img class="img-fluid w-50 mb-4" src="assets/images/appstore.png" />
             <img class="img-fluid w-50 mb-4" src="assets/images/enBadgeWebGeneric.png">
-          </div>
-         
+          </div>         
         </div>
       </div>
       <hr>
       <p><span></span> © 2017 Labcar technologies Inc.</p>
-
-
 		</div>
-		
 	</footer>
+
+	<footer class="d-sm-none">
+		<div class="footer">
+			<img src="assets/images/logoBlanco.png">
+			<hr>
+
+			<div class="container-fluid">
+        <div class="row">
+          
+          <div class="col-6 text-left d-flex p-2 flex-column mb-3">
+            <a href="">Viaja</a>
+            <a href="">Conduce</a>
+            <a href="">Ciudades</a>
+            <a href="">Ciudades</a>            
+            <a href="">Entregas</a>
+            <a href="">Cómo funciona?</a>
+            <a href="">Países</a>
+            <a href="">Seguridad</a>
+          </div>
+
+          <div class="col-6">
+          	<div class="text-left mb-4 d-flex flex-row align-items-end">
+            	<span class="icon-facebook icon"></span>
+            	<span class="icon-twitter icon"></span>
+            	<span class="icon-linkedin icon"></span>
+            	<span class="icon-apple icon"></span>
+            	<span class="icon-play icon"></span>
+          	</div>
+          	<div>
+          		<img class="img-fluid w-50 mb-4" src="assets/images/appstore.png" />
+            	<img class="img-fluid w-50 mb-4" src="assets/images/enBadgeWebGeneric.png">
+          	</div>   
+      		</div>
+         
+                
+        </div>
+      </div>
+      <hr>
+      <p><span></span> © 2017 Labcar technologies Inc.</p>
+		</div>
+	</footer>	
 
 	<script type="text/javascript" src="js/app.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlbk5s_NRZu3OaWtKwZ8BJCXzHz6yixv0&callback=initMap" async defer></script>
