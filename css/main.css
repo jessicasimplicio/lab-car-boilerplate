@@ -183,9 +183,26 @@
 }
 */
 
-footer {
+footer{
 	height: 600px; 
 	width: 100%;
 	background-color: #2B2B2B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.footer{
+	height: 75%;
+	width: 90%;
+	color: #fff;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #FFF;
+    margin: 1em 0;
+    padding: 0; 
 }
