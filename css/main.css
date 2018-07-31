@@ -100,8 +100,12 @@
 	height: 400px;
 	width: 400px;
 	color: white;
-	background-color: black;
-	opacity: .4;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 40px;
+
 }
 
 .drive-box h3 {
@@ -112,6 +116,7 @@
 .btn-driver {
 	background-color: #F7B617;
 	color: white;
+	width: 250px;
 }
 
 .map {
@@ -167,13 +172,19 @@
 	margin-right: 8px;
 }
 
-
-/*COR DO PLACEHOLDER*/
-/*::placeholder {
-    color: #fff;
-    opacity: 1;  Firefox 
+.icon {
+	color: white;
+	font-size: 20px;
+	margin-right: 5px;
 }
 
+/*COR DO PLACEHOLDER*/
+.form-control::placeholder {
+    color: #fff;
+    opacity: 1;  
+}
+
+/*
 :-ms-input-placeholder {  Internet Explorer 10-11 
    color: #fff;
 }
